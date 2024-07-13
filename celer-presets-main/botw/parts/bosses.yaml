@@ -1,0 +1,100 @@
+icons:
+  talus: https://icons.pistonite.org/icon/misc.monster.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  talus-luminous: https://icons.pistonite.org/icon/misc.monster.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  talus-rare: https://icons.pistonite.org/icon/misc.monster.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  talus-igneo: https://icons.pistonite.org/icon/misc.monster.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  talus-frost: https://icons.pistonite.org/icon/misc.monster.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  hinox-red: https://icons.pistonite.org/icon/misc.monster.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  hinox-blue: https://icons.pistonite.org/icon/misc.monster.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  hinox-black: https://icons.pistonite.org/icon/misc.monster.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
+  hinox-stal: https://icons.pistonite.org/icon/misc.monster.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  molduga: https://icons.pistonite.org/icon/misc.monster.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  molduking: https://icons.pistonite.org/icon/misc.monster.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  talus-igneo-titan: https://icons.pistonite.org/icon/misc.monster.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  boss-dlc: https://icons.pistonite.org/icon/misc.monster.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+
+tags:
+  counter-talus:
+    color: black
+    background: orange
+    split-type: Bosses
+  counter-hinox:
+    color: black
+    background: orange
+    split-type: Bosses
+  counter-molduga:
+    color: black
+    background: orange
+    split-type: Bosses
+  counter-boss-dlc:
+    color: black
+    background: orange
+    split-type: Bosses
+
+presets:
+  _Boss:
+    _Talus:
+      Stone:
+        text: .boss(Stone Talus)
+        icon: talus
+        icon-priority: 1
+        counter: .var(counter-talus)
+      Luminous:
+        text: .boss(Luminous Talus)
+        icon: talus-luminous
+        icon-priority: 1
+        counter: .var(counter-talus)
+      Rare:
+        text: .boss(Rare Talus)
+        icon: talus-rare
+        icon-priority: 1
+        counter: .var(counter-talus)
+      Igneo:
+        text: .boss(Igneo Talus)
+        icon: talus-igneo
+        icon-priority: 1
+        counter: .var(counter-talus)
+      _Igneo:
+        Titan:
+          text: .boss(Igneo Talus Titan)
+          icon: talus-igneo-titan
+          icon-priority: 1
+          counter: .counter-boss-dlc(EX)
+      Frost:
+        text: .boss(Frost Talus)
+        icon: talus-frost
+        icon-priority: 1
+        counter: .var(counter-talus)
+    _Hinox:
+      Red:
+        text: .boss(Red Hinox)
+        icon: hinox-red
+        icon-priority: 1
+        counter: .var(counter-hinox)
+      Blue:
+        text: .boss(Blue Hinox)
+        icon: hinox-blue
+        icon-priority: 1
+        counter: .var(counter-hinox)
+      Black:
+        text: .boss(Black Hinox)
+        icon: hinox-black
+        icon-priority: 1
+        counter: .var(counter-hinox)
+      Stal:
+        text: .boss(Stalnox)
+        icon: hinox-stal
+        icon-priority: 1
+        counter: .var(counter-hinox)
+    Stalnox:
+      presets: _Boss::Hinox::Stal
+    Molduga:
+      text: .boss(Molduga)
+      icon: molduga
+      icon-priority: 1
+      counter: .var(counter-molduga)
+    Molduking:
+      text: .boss(Molduking)
+      icon: molduking
+      icon-priority: 1
+      counter: .counter-boss-dlc(EX)

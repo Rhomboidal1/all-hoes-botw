@@ -1,0 +1,80 @@
+# main.yaml
+- use: ./preface.yaml
+- Plateau:
+  - SoR clip
+  - Boko Camp:
+     notes: PotLid Spear All Shroom All Pepper
+     coord: [-952.34, 238.33, 1959.44]
+     icon: potlid
+  - Temple of Time:
+     coord: [-832.43, 222.00, 1963.11]
+     icon: bow
+  - BLSS
+  - _Shrine::JaBaij:
+     icon: bombs
+  - BLSS
+  - _Shrine::OmanAu:
+     icon: mag
+  - BLSS
+  - _Korok::P18 
+  - Tree Windbomb
+  - _Shrine::OwaDaim:
+     icon: stasis
+     comment: Get Hammer
+  - Boulder Launch - > BLSS
+  - _Shrine::KehNamut:
+     icon: cryo
+  - BLSS
+  - Paraglider:
+     coord: [-814.73, 263.58, 1964.88]
+     counter: .my-counter(SPLT)
+     icon: paraglider
+  - _Korok::P11
+- Hateno Hoes:
+  - BLSS thru Duelling Peaks
+  - WB 2x to TL
+  - Tech Lab Hoe:
+     coord: [3783.52, 358.11, 2129.76]
+     icon: hoe
+  - Shed Hoe:
+     coord: [3416.33, 239.46, 2081.13]
+     icon: hoe
+  - House Hoe:
+     coord: [3320.17, 217.59, 2103.07]
+     icon: hoe
+  - Boko Hoe:
+     coord: [3229.82, 186.68, 2085.01]
+     icon: bokohoe
+  - Hoboko:
+     coord: [3160.77, 173.38, 2058.53]
+     icon: bokohoe
+  - Bobobo-bo Bo-bobo:
+     coord: [3090.27, 163.93, 2164.30]
+     icon: bokohoe
+  - Broboko Hoe:
+     coord: [2823.05, 146.43, 1842.38]
+     icon: bokohoe
+  - Final Bokohoe:
+     coord: [2800.19, 149.34, 1809.90]
+     icon: bokohoe
+     notes: Sneakstrike
+  - Head to Kakariko
+  - _Korok::D21
+  - Hestu:
+     coord: [2069.45, 188.17, 1422.25]
+     icon: hestu
+  - _Korok::D08
+  - _Korok::D06
+  - 3rd Hoe:
+     coord: [1911.69, 234.77, 1003.68]
+     icon: hoe
+  - BLSS SE toward Bokos
+  - 2nd Hoe:
+     coord: [38.10, 117.43, 1620.32]
+     icon: hoe
+
+
+
+
+
+

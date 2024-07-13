@@ -1,0 +1,5 @@
+#TXTPP#include ../../GENERATED
+presets:
+  _Warp:
+    _Tower:
+      #TXTPP#run python ../../scripts/tower-warps.py ./towers.yaml

@@ -1,0 +1,21 @@
+#TXTPP#include ../../GENERATED
+icons:
+  #TXTPP#include ../data/korok-icons.yaml
+
+tags:
+  counter-korok:
+    color: black
+    background: "#0f0"
+    split-type: Koroks
+
+presets:
+  Korok:
+    text: .npc($(0))
+    icon: $(1)
+    icon-priority: 2
+    counter: .var(counter-korok)
+    vars:
+      korok-seed: .add(1)
+    time-override: $(2)
+  _Korok:
+    #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 900

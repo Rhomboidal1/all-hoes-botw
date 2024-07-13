@@ -1,0 +1,39 @@
+#TXTPP#include ../../GENERATED
+icons:
+  #TXTPP#run python ../../scripts/icons.py ../data/shrines.yaml
+
+tags:
+  shrine-dlc:
+    color: orange
+    background:
+      light: black
+      dark: inherit
+  counter-shrine:
+    color: black
+    background: cyan
+    split-type: Shrines
+  counter-dlc-shrine:
+    color: black
+    background: orange
+    split-type: Shrines
+
+splits:
+- counter-shrine
+- counter-dlc-shrine
+
+presets:
+  Shrine:
+    text: ".loc($(0))"
+    icon: $(1)
+    icon-priority: 0
+    counter: .var(counter-shrine)
+    coord: [$(2), $(3), $(4)]
+    time-override: $(5)
+  ShrineDlc:
+    text: ".shrine-dlc($(0))"
+    icon: $(1)
+    icon-priority: 0
+    counter: .counter-dlc-shrine(EX)
+    coord: [$(2), $(3), $(4)]
+    time-override: $(5)
+  #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

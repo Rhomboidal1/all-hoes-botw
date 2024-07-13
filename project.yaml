@@ -1,0 +1,80 @@
+# The name of your project/route.
+# This will be displayed in the header for people who are viewing your route
+title: All Hoes
+
+# The version of your route. There's no particular format here.
+# This will be displayed in the metadata in the settings dialog
+version: 1.0.0
+
+# This is the route itself. Here it points to the main.yaml file we created earlier
+route: 
+  use: ./main.yaml
+
+# Extra configuration.
+# The project must define a map to compile properly.
+# For now, we will use the Breath of the Wild celer map maintained by Pistonight
+config:
+- use: ./celer-presets-main/botw/full.yaml
+- plugins:
+  - use: variables             # required
+  - use: botw-ability-unstable # required
+- tags:
+   orange:
+    color: orange
+   red:
+    color: red
+   my-counter:
+    color: black
+    background: orange
+    split-type: My Counters # <- add this
+- icons:
+   paraglider:
+    use: ./icons/Paraglider.png
+   bombs:
+    use: ./icons/Circle Bomb Rune.png
+   stasis:
+    use: ./icons/Stasis Rune.png
+   cryo:
+    use: ./icons/Cryonis Rune.png
+   mag:
+    use: ./icons/Magnesis Rune.png
+   axe:
+    use: ./icons/Axe.png
+   torch:
+    use: ./icons/Torch.png
+   slate:
+    use: ./icons/Sheikah Slate.png
+   potlid:
+    use: ./icons/Pot Lid.png
+   bow:
+    use: ./icons/Boko Bow.png
+   shroom:
+    use: ./icons/Hylian Shroom.png
+   fairy:
+    use: ./icons/Fairy.png
+   chest:
+    use: ./icons/Chest.png
+   exchest:
+    use: ./icons/Ex Chest.png
+   apple:
+    use: ./icons/Apple.png
+   ruby:
+    use: ./icons/Ruby.png
+   gale:
+    use: ./icons/Revali's Gale.png
+   grace:
+    use: ./icons/Mipha's Grace.png
+   protection:
+    use: ./icons/Daruk's Protection.png
+   fury:
+    use: ./icons/Urbosa's Fury.png
+   hoe:
+    use: ./icons/Hoe.png
+   hestu:
+    use: ./icons/Hestu.png
+   blue boko:
+    use: ./icons/Blue Boko.png
+   boko:
+    use: ./icons/Red Boko.png
+   bokohoe:
+    use: ./icons/BokoHoe.png
