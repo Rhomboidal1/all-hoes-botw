@@ -78,3 +78,5 @@ config:
     use: ./icons/Red Boko.png
    bokohoe:
     use: ./icons/BokoHoe.png
+   maracas:
+    use: ./icons/Hestu's Maracas.png

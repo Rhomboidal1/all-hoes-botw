@@ -15,6 +15,11 @@
   - BLSS
   - _Shrine::OmanAu:
      icon: mag
+  - Ice Arrows:
+     coord: [-775.94, 174.80, 1561.83]
+     icon: chest
+     notes: Mud pit
+     comment: For Bridge Bokos
   - BLSS
   - _Korok::P18 
   - Tree Windbomb
@@ -24,12 +29,16 @@
   - Boulder Launch - > BLSS
   - _Shrine::KehNamut:
      icon: cryo
+  - Get Bomb Arrows:
+     coord: [-1451.49, 317.61, 2028.07]
+     notes: for Maracas camp
   - BLSS
   - Paraglider:
      coord: [-814.73, 263.58, 1964.88]
      counter: .my-counter(SPLT)
      icon: paraglider
-  - _Korok::P11
+  - _Korok::P11:
+     notes: Top of Temple of Time
 - Hateno Hoes:
   - BLSS thru Duelling Peaks
   - WB 2x to TL
@@ -42,36 +51,55 @@
   - House Hoe:
      coord: [3320.17, 217.59, 2103.07]
      icon: hoe
-  - Boko Hoe:
+  - East Forest Hoe:
      coord: [3229.82, 186.68, 2085.01]
      icon: bokohoe
-  - Hoboko:
+     notes: Sneakstrike
+  - West Bokohoe:
      coord: [3160.77, 173.38, 2058.53]
      icon: bokohoe
-  - Bobobo-bo Bo-bobo:
+  - South Bokohoe:
      coord: [3090.27, 163.93, 2164.30]
      icon: bokohoe
-  - Broboko Hoe:
+  - Bridge Hobo:
      coord: [2823.05, 146.43, 1842.38]
      icon: bokohoe
-  - Final Bokohoe:
+     notes: use ice arrows
+  - Bridge Broko:
      coord: [2800.19, 149.34, 1809.90]
      icon: bokohoe
-     notes: Sneakstrike
+     notes: use ice arrows
   - Head to Kakariko
-  - _Korok::D21
+  - _Korok::D21:
+     notes: Tree
+  - Get Maracas:
+     coord: [2172.24, 218.76, 1369.20]
+     icon: maracas
+     notes: use bomb arrows
   - Hestu:
      coord: [2069.45, 188.17, 1422.25]
      icon: hestu
   - _Korok::D08
   - _Korok::D06
-  - 3rd Hoe:
+  - Kakarikhoe:
      coord: [1911.69, 234.77, 1003.68]
      icon: hoe
-  - BLSS SE toward Bokos
-  - 2nd Hoe:
-     coord: [38.10, 117.43, 1620.32]
+  - BLSS to Satori Mountain
+  - _Korok::R54:
+     notes: climb tree
+  - Satori Hoe:
+     coord: [-1947.50, 331.16, 360.30]
      icon: hoe
+  - Riverside Hestu:
+     coord: [387.88, 121.72, 1038.40]
+     icon: hestu
+     comment: Final inventory upgrade
+  - Bosh Kala Bokohoe:
+     coord: [38.10, 117.43, 1620.32]
+     icon: boko
+  - All Hoes:
+     icon: hoe
+     counter: .my-counter(SPLT)
 
 
 
