@@ -122,7 +122,7 @@
      counter: .counter-hoe(10/11)     
   - _Korok::R55:
      notes: rock lift, BLSS with rock
-      counter: .counter-korok(3)
+     counter: .counter-korok(3)
   - Riverside Hestu:
      coord: [387.88, 121.72, 1038.40]
      icon: hestu
