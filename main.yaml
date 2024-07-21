@@ -8,6 +8,7 @@
      icon: potlid
   - Temple of Time:
      coord: [-832.43, 222.00, 1963.11]
+     notes: Clip thru window
      icon: bow
   - BLSS
   - _Shrine::JaBaij:
@@ -19,9 +20,17 @@
      coord: [-775.94, 174.80, 1561.83]
      icon: chest
      notes: Mud pit
-     comment: For Bridge Bokos
+     comment: Left chest. Optional blss with metal box at mag
   - BLSS
-  - _Korok::P18 
+  - _Korok::P02
+  - _Korok::P01:
+     comment: these can be exchanged for a korok right before hestu D21
+  - _Korok::P18:
+      movements:
+        - [-640,1696.0108213656122]
+        - [-683,1978.8496399725464]
+        - _Korok::P18
+      comment: Grab stamella shrooms too
   - Tree Windbomb
   - _Shrine::OwaDaim:
      icon: stasis
@@ -32,64 +41,87 @@
   - Get Bomb Arrows:
      coord: [-1451.49, 317.61, 2028.07]
      notes: for Maracas camp
+     comment: Can be skipped if using ice arrows for all bokos
   - BLSS
   - Paraglider:
      coord: [-814.73, 263.58, 1964.88]
      counter: .my-counter(SPLT)
      icon: paraglider
-  - _Korok::P11:
-     notes: Top of Temple of Time
 - Hateno Hoes:
   - BLSS thru Duelling Peaks
   - WB 2x to TL
-  - Tech Lab Hoe:
-     coord: [3783.52, 358.11, 2129.76]
-     icon: hoe
-  - Shed Hoe:
-     coord: [3416.33, 239.46, 2081.13]
-     icon: hoe
-  - House Hoe:
-     coord: [3320.17, 217.59, 2103.07]
-     icon: hoe
-  - East Forest Hoe:
-     coord: [3229.82, 186.68, 2085.01]
+  - Bridge Broko1:
+     coord: [2800.19, 149.34, 1809.90]
      icon: bokohoe
-     notes: Sneakstrike
-  - West Bokohoe:
-     coord: [3160.77, 173.38, 2058.53]
-     icon: bokohoe
-  - South Bokohoe:
-     coord: [3090.27, 163.93, 2164.30]
-     icon: bokohoe
+     comment: Shoot both with ice arrows. Disarm with single spear hits
+     counter: .counter-hoe(1/11)
   - Bridge Hobo:
      coord: [2823.05, 146.43, 1842.38]
      icon: bokohoe
-     notes: use ice arrows
-  - Bridge Broko:
-     coord: [2800.19, 149.34, 1809.90]
+     counter: .counter-hoe(2/11)
+  - South Bokohoe:
+     coord: [3090.27, 163.93, 2164.30]
      icon: bokohoe
-     notes: use ice arrows
-  - Head to Kakariko
-  - _Korok::D21:
-     notes: Tree
+     comment: N Turn WB (+ midair). Attack with hoe
+     counter: .counter-hoe(3/11)
+  - West Bokohoe:
+     coord: [3160.77, 173.38, 2058.53]
+     icon: bokohoe
+     counter: .counter-hoe(4/11)
+  - East Forest Hoe:
+     coord: [3229.82, 186.68, 2085.01]
+     icon: bokohoe
+     counter: .counter-hoe(5/11)
+  - House Hoe:
+     coord: [3320.17, 217.59, 2103.07]
+     icon: hoe
+     comment: On the side of the first house from the entrance on a wooden shelter
+     counter: .counter-hoe(6/11)
+  - Shed Hoe:
+     coord: [3416.33, 239.46, 2081.13]
+     comment: In the shed of the mayor's house. on the right side next to the door as you walk in
+     icon: hoe
+     counter: .counter-hoe(7/11)
+  - Tech Lab Hoe:
+     coord: [3783.52, 358.11, 2129.76]
+     comment: WB chain up to lab. Hoe is next to the back door
+     icon: hoe
+     counter: .counter-hoe(8/11)
+  - BLSS off tech lab stairs to Hestu
+#  - _Korok::D21:
+#     notes: Tree
+#     comment: this is an optional korok to exchange for a plat korok
   - Get Maracas:
      coord: [2172.24, 218.76, 1369.20]
      icon: maracas
-     notes: use bomb arrows
+     notes: Shoot with ice arrows or bomb arrows
   - Hestu:
      coord: [2069.45, 188.17, 1422.25]
      icon: hestu
-  - _Korok::D08
-  - _Korok::D06
+- All the Hoes:
+  - _Korok::D08:
+      movements:
+        - [2093.5,1410.582568855889]
+        - [2077,1203.9248199862732]
+        - _Korok::D08
+      counter: .counter-korok(1)
+      comment: N Height from rock + E midair
+  - _Korok::D06:
+      counter: .counter-korok(2)
   - Kakarikhoe:
      coord: [1911.69, 234.77, 1003.68]
      icon: hoe
-  - BLSS to Satori Mountain
-  - _Korok::R54:
-     notes: climb tree
+     comment: Under shelter with cucco on top
+     counter: .counter-hoe(9/11)
+  - BLSS from Kak stump:
+     coord: [1870.75,815.448028967784]
   - Satori Hoe:
      coord: [-1947.50, 331.16, 360.30]
+     comment: There are 3 distinct trees on the left end of the forest. It spawns on the middle one
      icon: hoe
+     counter: .counter-hoe(10/11)     
+  - _Korok::R55:
+     notes: rock lift, BLSS with rock
   - Riverside Hestu:
      coord: [387.88, 121.72, 1038.40]
      icon: hestu
@@ -97,9 +129,8 @@
   - Bosh Kala Bokohoe:
      coord: [38.10, 117.43, 1620.32]
      icon: boko
-  - All Hoes:
-     icon: hoe
-     counter: .my-counter(SPLT)
+     comment: To the right of Bosh Kala
+     counter: .counter-hoe(11/11)
 
 
 

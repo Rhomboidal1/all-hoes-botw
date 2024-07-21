@@ -19,6 +19,8 @@ config:
   - use: variables             # required
   - use: botw-ability-unstable # required
 - tags:
+   counter-hoe:
+    color: white
    orange:
     color: orange
    red:
