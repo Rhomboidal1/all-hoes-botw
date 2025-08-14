@@ -50,8 +50,29 @@
 - Hateno Hoes:
   - BLSS thru Duelling Peaks
   - WB 2x to TL
+<<<<<<< Updated upstream
   - Bridge Broko1:
      coord: [2800.19, 149.34, 1809.90]
+=======
+  - Tech Lab Hoe:
+     coord: [3783.52, 358.11, 2129.76]
+     icon: hoe
+  - Shed Hoe:
+     coord: [3416.33, 239.46, 2081.13]
+     icon: hoe
+  - House Hoe:
+     coord: [3320.17, 217.59, 2103.07]
+     icon: hoe
+  - East Forest Hoe:
+     coord: [3229.82, 186.68, 2085.01]
+     icon: bokohoe
+     notes: Sneakstrike or 3x to disarm
+  - West Bokohoe:
+     coord: [3160.77, 173.38, 2058.53]
+     icon: bokohoe
+  - South Bokohoe:
+     coord: [3090.27, 163.93, 2164.30]
+>>>>>>> Stashed changes
      icon: bokohoe
      comment: Shoot both with ice arrows. Disarm with single spear hits
      counter: .counter-hoe(1/11)
@@ -111,21 +132,33 @@
   - Kakarikhoe:
      coord: [1911.69, 234.77, 1003.68]
      icon: hoe
+<<<<<<< Updated upstream
      comment: Under shelter with cucco on top
      counter: .counter-hoe(9/11)
   - BLSS from Kak stump:
      coord: [1870.75,815.448028967784]
+=======
+     notes: Under shelter with cucco on top
+  - BLSS from Kak stump to Satori Mountain
+  - _Korok::R55:
+     notes: lift rock
+>>>>>>> Stashed changes
   - Satori Hoe:
      coord: [-1947.50, 331.16, 360.30]
      comment: There are 3 distinct trees on the left end of the forest. It spawns on the middle one
      icon: hoe
+<<<<<<< Updated upstream
      counter: .counter-hoe(10/11)     
   - _Korok::R55:
      notes: rock lift, BLSS with rock
      counter: .counter-korok(3)
+=======
+     notes: There are 3 distinct trees on the left end of the forest, hoe spawns on the middle one
+>>>>>>> Stashed changes
   - Riverside Hestu:
      coord: [387.88, 121.72, 1038.40]
      icon: hestu
+     notes: BLSS with rock
      comment: Final inventory upgrade
   - Bosh Kala Bokohoe:
      coord: [38.10, 117.43, 1620.32]
